@@ -1,0 +1,46 @@
+.ggm {
+    width: 100%;
+    background-color: rgb(248, 248, 248);
+    color: rgb(17, 17, 17);
+    padding: 2vw;
+}
+
+.ggm .ggm_title {
+    font-size: 3.8em;
+    font-family: 'arial black', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    background-color: #1f1f1f;
+    color: white;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.ggm .ggm_header {
+    font-size: 1.8em;
+    font-family: 'arial black', sans-serif;
+    color: #313131;
+    padding-top: 1.0em;
+    padding-bottom: 0.2em;
+}
+
+.ggm .ggm_header2 {
+    font-size: 1.5em;
+    font-family: 'arial', sans-serif;
+    padding-top: 0.5em;
+    font-style: italic;
+}
+
+.ggm .ggm_text {
+    font-size: 1.2em;
+    font-family: 'Mark Pro', Arial, sans-serif;
+    letter-spacing: 0.04em;
+}
+
+.ggm .ggm_bullet1 {
+    padding-left: 1.5em;
+}
+
+.ggm .ggm_bullet2 {
+    padding-left: 3.0em;
+}

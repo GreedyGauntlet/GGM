@@ -1,0 +1,51 @@
+>SPELL SYSTEM
+
+>>WHAT ARE SPELLS?
+The spell system is the main combat system of Tower of Icarus. Spells are customized active abilities the player creates and casts. Each spell costs some amount of mana, although the results of casting that spell can vary widely.
+
+>>RELEVANT STATS
+Public stats:
+-Vessel: the mana capacity of the player
+-Concentration: the mana regeneration rate during focus
+-Affinity (left/right): the effectiveness the spell is cast at (exact effect can differ per spell, can affect damage, size, duration, etc)
+
+Hidden stats:
+-Spell slots: the amount of catalysts the player can carry (default 0)
+-Spell efficiency : the efficiency a player casts spells at (multiplier to mana cost essentially)
+
+>>CASTING A SPELL
+Spells are cast via catalysts; the player can equip a catalyst in either their right or left hand. Then a spell can be cast from either hand.
+
+>>CATALYSTS
+Catalysts are made by combining ingredients and cores in a ritual table. Catalysts are then used to cast spells via the player.
+
+>>>CORE
+Spell cores can be rarely found by defeating enemies or more commonly from elites and bosses. The spell core of a catalyst determines the following:
+-Nature (projectile, melee, whirlwind, etc)
+-Efficiency (multiplier to the flat mana cost)
+-Intensity (multiplier to the spell effectiveness)
+-Capacity (# of ingredients that can be added)
+-Compatibility (range of attributes that can be compatible - see ATTRIBUTES for more info)
+Spell cores can also feature special effects, similar to having a “built in ingredient” of sorts. For example, a core can also automatically apply fire damage to the catalyst built with it.
+
+>>>INGREDIENTS
+Ingredients can be uncommonly found by defeating enemies. Each ingredient of a catalyst can determine the following:
+-Attributes
+-Damage
+-Mana cost
+-Visual Effect
+-Misc Effects (AOE, DOT, etc)
+
+>>ATTRIBUTES
+Attributes can have special effects for each specific one. For example, fire can cause burning damage over time, lightning can paralyze, etc. Specific enemies may be resistant or vulnerable to certain attributes. Attributes are also differently compatible with one another, which can affect the construction of spells. For example: a core that has compatibility of 4 can only combine attributes that are at most 4 nodes away from each other on the compatibility chart. See the below compatibility chart for a list of all attributes and their compatibility (void is perfectly compatible with all elements here):
+
+<jason insert image here later>
+
+>>RITUAL TABLES
+Ritual tables are used to create catalysts. Each floor has a guaranteed ritual table at the end, although there may be hidden or secret rooms that contain special ritual tables with certain effects. 
+
+>>>ASSEMBLY
+Players will add the core and ingredients into the ritual table, and combine them to create a catalyst. This will consume the core and ingredients.
+
+>>>DISASSEMBLY
+Players can also disassemble catalysts at ritual tables. This will allow the player to regain the ingredients and core initially used. However, each core/ingredient has a durability rating. Disassembling a catalyst into its respective core/ingredients will consume durability. If there is no more durability left to consume, the core/ingredient is permanently destroyed.
